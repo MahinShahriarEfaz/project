@@ -2,9 +2,9 @@ function App() {
   return (
     <div>
       <header>
-        <a href="/">Project: Resell</a>
+        <a href="/">PROJECT: Resell</a>
       </header>
-      <main>list products</main>
+      <main>list OF products</main>
     </div>
   );
 }
