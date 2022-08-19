@@ -12,11 +12,6 @@ body {
 }
 main {
   flex: 1;
-  padding: 1rem;
-  padding: 2rem 0rem 0rem 2rem;
-  font-family: serif;
-  font-weight: bold;
-  font-size: 15px;
 }
 
 .products {
@@ -37,4 +32,8 @@ main {
 }
 .rating span {
   color: #f6c100;
+}
+
+.image-large {
+  max-width: 100%;
 }
