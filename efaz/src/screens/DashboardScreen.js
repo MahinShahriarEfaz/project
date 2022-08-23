@@ -90,12 +90,12 @@ export default function DashboardScreen() {
               <Card>
                 <Card.Body>
                   <Card.Title>
-                    $
                     {summary.orders && summary.users[0]
                       ? summary.orders[0].totalSales.toFixed(2)
-                      : 0}
+                      : 0}{' '}
+                    TAKA
                   </Card.Title>
-                  <Card.Text> Orders</Card.Text>
+                  <Card.Text> Orders (tk)</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
