@@ -1,7 +1,23 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+  users: [
+    {
+      name: 'Efaz',
+      email: 'admin@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: 'Mahin',
+      email: 'user@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
   products: [
     {
-      _id: '1',
+      // _id: '1',
       name: 'One Plus 8T',
       slug: 'one-plus-8t',
       category: 'Phone',
@@ -14,7 +30,7 @@ const data = {
       description: 'Used for 1 year',
     },
     {
-      _id: '2',
+      // _id: '2',
       name: 'iPhone se',
       slug: 'iphone-se',
       category: 'Phone',
@@ -27,7 +43,7 @@ const data = {
       description: 'Used for 1 year',
     },
     {
-      _id: '3',
+      // _id: '3',
       name: 'Asus Monitor',
       slug: 'asus-monitor',
       category: 'Monitor',
@@ -40,7 +56,7 @@ const data = {
       description: 'Used for 1 year',
     },
     {
-      _id: '4',
+      // _id: '4',
       name: 'Asus Laptop',
       slug: 'asus-laptop',
       category: 'Laptop',
