@@ -20,7 +20,7 @@ main {
   justify-content: center;
 }
 .product {
-  border: 1px #000000 solid;
+  border: 1px #292424 solid;
   margin: 1rem;
 }
 .product img {
@@ -31,7 +31,7 @@ main {
   padding: 1rem;
 }
 .rating span {
-  color: #f6c100;
+  color: #df971a;
 }
 
 .image-large {
@@ -44,12 +44,12 @@ main {
   max-width: 700px;
 }
 .checkout-steps > div {
-  border-bottom: 0.2rem solid #a0a0a0;
-  color: #a0a0a0;
+  border-bottom: 0.2rem solid #b09696;
+  color: #b09696;
 }
 .checkout-steps > div.active {
-  border-bottom: 0.2rem solid #f08000;
-  color: #f08000;
+  border-bottom: 0.2rem solid #1d1001;
+  color: #1d1001;
 }
 .text-bold {
   font-weight: bold;
