@@ -95,7 +95,7 @@ export default function DashboardScreen() {
                       : 0}{' '}
                     TAKA
                   </Card.Title>
-                  <Card.Text> Orders (tk)</Card.Text>
+                  <Card.Text> Orders (Tk)</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
